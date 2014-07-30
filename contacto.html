@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html long="es">
+	<head>
+		<meta charset= 'utf-8'>
+		<link rel="stylesheet" href="./stylesheet.css">
+		<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet'>
+		<script src= "http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src= 'C:\Users\alumnoutec\Desktop\scriptPrincipal.js'></script>
+	</head>
+	<body>
+		<div id= 'contenido'>
+			<header>
+				<hgroup>
+					<h1>Alexis.com.pe
+					</h1>
+				<hgroup>
+				<nav>
+					<ul>
+						<li><a href= 'index.html'>Home</a></li>
+						<li><a href= 'tutoriales.html'>About me</a></li>
+						<li><a href= 'contacto.html'>Homework</a></li>
+						<li><a href= 'media.html'>Final proyect</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<div id= 'textoPr'>
+					<hgroup>
+						<h1>Calificame con 10</h1>
+					</hgroup>
+					<form>
+						<label for='nombre'>Nombre: </label>	
+						<input type= 'text' id='nombre' placeholder='Aqui escribe tu nombre' required>
+						<label for='correo'>E-mail: </label>	
+						<input type= 'email' id='correo' placeholder = 'escribe tu e-mail' required>
+						<label for='edad'>Edad: </label>	
+						<input type= 'number' id='edad' min= '18' max = '100'>
+						<label for='calificacion'>calificame: </label>	
+						<input type= 'range' id='calificacion' min = '0' max= '10' value= '0'>
+						<label for='fecha'>Fecha: </label>	
+						<input type= 'date' id='fecha'>
+						<input type= 'submit' value = 'Enviar Datos' id= 'btnSubmit'>
+					</form>
+						
+				</div>
+			</section>
+		</div>
+<footer>
+					<canvas id ='miCanvas'>
+					</canvas>
+				</footer>
+	</body>
+</html>
